@@ -1,7 +1,6 @@
 package exercicios.ex5;
 
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,10 +39,10 @@ public class UserInterface {
         int opcao;
         while(true){
             try{
-                opcao = scanner.nextInt();
+                opcao = Integer.parseInt(scanner.nextLine());
                 break;
             }
-            catch (InputMismatchException e){
+            catch (NumberFormatException e){
                 System.out.println("opção inválida");
             }
         }
@@ -62,7 +61,7 @@ public class UserInterface {
                     return;
                 case 2:
                     System.out.println("Digite o telefone: ");
-                    int telefone = scanner.nextInt();
+                    int telefone = Integer.parseInt(scanner.nextLine());
                     notificadores.add(new SmsNotificacao(telefone));
                     return;
                 case 3:
