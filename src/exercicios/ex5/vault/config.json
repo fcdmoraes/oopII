@@ -1,0 +1,14 @@
+{
+  "pix": {
+    "chave": "e818c256-4a5b4f7b-b92c-494a4e469619",
+    "nomeRecebedor": "Flavio Campopiano Dias de Moraes",
+    "CPF": "367.752.028-22",
+    "cidade": "Sao Paulo"
+  },
+  "boleto": {
+    "banco": "341",
+    "agencia": "1234",
+    "conta": "56789-0",
+    "cedente": "Loja Exemplo Ltda"
+  }
+}
