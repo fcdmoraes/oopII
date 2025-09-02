@@ -22,4 +22,9 @@ public class ItemPedido {
     public java.math.BigDecimal getPrecoTotal() {
         return precoTotal;
     }
+
+    @Override
+    public String toString() {
+        return "Produto: " + produto.getNome() + ", Quantidade: " + quantidade + ", Valor: " + precoTotal;
+    }
 }

@@ -1,4 +1,4 @@
-package exercicios.ex5.json;
+package exercicios.ex5.pagamento;
 
 public class JsonPix {
     private String chave;
